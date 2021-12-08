@@ -1,0 +1,9 @@
+*.txt
+*.wav
+*.mp4
+*.spec
+*.exe
+*.py
+/dist
+/__pycache__
+!silent_wave_cut.py
