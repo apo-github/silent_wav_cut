@@ -7,3 +7,4 @@
 /dist
 /__pycache__
 !silent_wave_cut.py
+/build
