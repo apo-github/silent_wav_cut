@@ -48,10 +48,10 @@ if not os.path.isdir("auto_slide_image"):  #フォルダがなかったら
 
 iFile_path = iFilePath.replace(
     '\\', '/'
-)  #iFilePath.replace("\", "\\")  #"input2.mp4#iFilePath #'C:\\Users\\***REMOVED***\\Documents\\***REMOVED***\\python\\auto\\movie\\input2.mp4'  #iFilePath.replace("\", "\\")  #"input2.mp4"
+)  #iFilePath.replace("\", "\\")  
 iDir_path = iDirPath.replace(
     '\\', '/'
-)  #'C:\\Users\\***REMOVED***\\Desktop'  #iDirPath.replace("\", "\\")  #current_dir
+) #current_dir
 iDir_name = "out"  #中間素材書き出しフォルダ名
 outDir_path = "{}/{}".format(iDir_path, iDir_name)
 out_sound_file = "{}/{}".format(outDir_path, "input.wav")
